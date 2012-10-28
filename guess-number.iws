@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b7f6af-bf11-4ce2-9673-602ff31c59d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guess-number.iws" afterPath="$PROJECT_DIR$/guess-number.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/GuessNumberTest.java" afterPath="$PROJECT_DIR$/test/GuessNumberTest.java" />
     </list>
     <ignored path="guess-number.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +81,7 @@
       <file leaf-file-name="GuessNumberTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/GuessNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="36" selection-start="1145" selection-end="1145" vertical-scroll-proportion="1.2307693">
+            <state line="40" column="5" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.91402715">
               <folding />
             </state>
           </provider>
@@ -490,7 +490,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1448" height="878" extended-state="7" />
+    <frame x="-4" y="-4" width="1448" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,7 +629,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/GuessNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="36" selection-start="1145" selection-end="1145" vertical-scroll-proportion="1.2307693">
+        <state line="40" column="5" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.91402715">
           <folding />
         </state>
       </provider>
