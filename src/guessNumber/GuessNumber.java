@@ -20,27 +20,20 @@ public class GuessNumber {
     public String validate(String userInput) {
         char[] randomNumbers = splitNumber(randomNumber);
         char[] userNumbers = splitNumber(userInput);
-        int countA = 0, countB = 0;
+        int placeCorrect = 0, placeIncorrect = 0;
         for(int i=0;i<4;i++){
-            if(randomNumbers[i]==userNumbers[i]){
-                countA++;
+            if(randomNumbers[i] == userNumbers[i]){
+                placeCorrect++;
                 continue;
             }
             for(int j=0;j<4;j++){
-                if(randomNumbers[i]==userNumbers[j]) {
-                    countB++;
+                if(randomNumbers[i] == userNumbers[j]) {
+                    placeIncorrect++;
                     continue;
                 }
             }
         }
-        return countA + "a" + countB + "b";
-        /*
-        if(userInput.equals(randomNumber)){
-            return "4a0b";
-        }else if(userInput.equals("1256")){
-            return "2a0b";
-        }
-        return "3a0b";
-        */
+        return placeCorrect + "a" + placeIncorrect + "b";
+
     }
 }
